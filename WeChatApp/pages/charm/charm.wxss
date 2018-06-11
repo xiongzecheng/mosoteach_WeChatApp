@@ -1,0 +1,134 @@
+page{
+   position: absolute;
+    background-image: url("http://p88kzenjw.bkt.clouddn.com/meilizhi-22.png") ;
+   /*380，610*/
+   /* 395,622 */
+   /* 415,640  大了*/
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 100%;
+}
+
+.main{
+  margin-top:30px;
+  width: 100%;
+  height: 100%;
+}
+.teacher-name{
+  font-size: 20px;
+  color:white;
+  text-align: center;
+  margin-top: 10px;
+}
+.teacher-avatar{
+  border-radius: 100%;
+  width: 58px;
+  height: 58px;
+  margin-left:158px;
+  margin-top: 12px;
+  border: 1.2px solid #00C2E7;
+}
+.meili{
+  text-align: center;
+}
+.meili-text{
+  color:white;
+  font-size: 13px;
+  
+}
+
+
+.first-line{
+  display: inline-flex;
+  width: 100%;
+  height:92px;
+  /* background: wheat; */
+  margin-top: 64px;
+  margin-left: 10px;
+}
+.second-line{
+   display: inline-flex;
+  width: 100%;
+  height:92px;
+  /* background: wheat; */
+  margin-top:10px;
+  margin-left: 10px;
+}
+
+/*中间部分样式*/
+.firstline-left{
+  width: 50%;
+  height:92px;
+  /* background: blue; */
+}
+.firstline-right{
+  width: 50%;
+  height:92px;
+}
+.img-set{
+   width: 70px;
+   height: 60px;
+   margin-top: 11%;
+   margin-left: -3px;
+}
+.create-text{
+  position:absolute;
+  color: #049DBC;
+  margin-left:5%;
+  margin-top: 7%;
+  font-size: 14px;
+}
+.create-value{
+  color: #049DBC;
+  margin-left:12%;
+  margin-top: 5%;
+  font-family: "微软雅黑";
+  font-size: 26px;
+}
+
+.student-text{
+   position:absolute;
+  color: #8DBE31;
+  margin-left:2%;
+  margin-top: 7%;
+  font-size: 14px;
+}
+.student-value{
+  color: #8DBE31;
+  margin-left:5%;
+  margin-top: 2%;
+  font-size: 26px;
+}
+
+.resource-text{
+  position:absolute;
+  color: #327E88;
+   margin-left:5%;
+  margin-top: 7%;
+  font-size: 14px;
+}
+.resource-value{
+  color:  #327E88;
+  margin-left:11%;
+  margin-top: 3%;
+  font-size: 24px;
+}
+.active-text{
+   position:absolute;
+  color: #64528E;
+  margin-left:2%;
+  margin-top: 7%;
+  font-size: 14px;
+}
+.active-value{
+   color: #64528E;
+  margin-left:6%;
+  margin-top: 2%;
+  font-size: 24px;
+}
+/* 中间部分样式结束 */
+
+
+
+
+

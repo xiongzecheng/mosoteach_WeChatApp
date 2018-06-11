@@ -1,0 +1,39 @@
+<import src="../template/template.wxml"/>
+<template is="tabbar" data="{{tabbar}}"/>
+<view class='all'>
+<view class='body'>
+      <image class='myhead' src='image/icon_notice_class.png'></image>
+      <text class='up'>班课通知</text>
+      <text class='down'>暂无新消息</text>
+      <image class='myspace-nexticon' src='../../images/quiz_icon_next_disabled.png'></image>
+</view>
+<view class='body'>
+      <image class='myhead' src='image/icon_notice_system.png'></image>
+      <text class='up'>班课消息</text>
+      <text class='down'>暂无新消息</text>
+      <image class='myspace-nexticon' src='../../images/quiz_icon_next_disabled.png'></image>
+</view>
+<view class='body'>
+      <image class='myhead' src='image/msg_mo.png'></image>
+      <text class='up'>小墨消息</text>
+      <text class='down'>暂无新消息</text>
+      <image class='myspace-nexticon' src='../../images/quiz_icon_next_disabled.png'></image>
+</view>
+
+<view>
+<image class='chat-icon' src='image/icon_private_chat.png'></image>
+</view>
+<view class='text-up'>
+<text>
+遇到难题，想找人讨论？
+</text>
+</view>
+<view  class='text-down'>
+<text>
+新增[私聊]功能，随时随地沟通
+</text>
+</view>
+<view class='next'>
+</view>
+
+</view>

@@ -1,0 +1,79 @@
+<view class='body'>
+  <view class='top' bindtap='top'>
+    <view wx:for='{{testdata}}' wx:key='this'>
+      <image class='myhead' src='{{item.ava}}'></image>
+      <text class='myname'>{{item.name}}</text>
+      <image class='nexticon' src='{{item.ic}}'></image>
+    </view>
+  </view>
+
+
+  <view class="section test2">
+    <view class='flex-wrp' style="flex-direction:row;" >
+      <view class="separate bc_green" bindtap='experience'>
+        <view class='experience'>3424</view>
+        <view class='classify'>经验值</view>
+      </view>
+       <view class="separate bc_green" bindtap='charm'>
+        <view class='experience'>0</view>
+        <view class='classify'>魅力值</view>
+      </view>
+       <view class="separate bc_green">
+        <view class='experience'>54</view>
+        <view class='classify'>蓝豆</view>
+      </view>
+       <view class="separate bc_green">
+        <view class='experience'>6</view>
+        <view class='classify'>心意</view>
+      </view>
+    
+    </view>
+  </view>
+
+  <!-- 我的空间 -->
+  <view class='myspace-body'>
+    <view class='myspace'>
+      <text class='myspace-text'>我的空间</text>
+      <image class='myspace-nexticon' src='../../images/quiz_icon_next_disabled.png'></image>
+    </view>
+  </view>
+
+
+  <!-- 我的收藏 -->
+  <view class='mycollect-body'>
+    <view class='mycollect'>
+      <text class='mycollect-text'>我的收藏</text>
+      <image class='mycollect-nexticon' src='../../images/quiz_icon_next_disabled.png'></image>
+    </view>
+  </view>
+
+  <!-- 收到的心意，卡片 -->
+  <view class='myreceive-body'>
+    <view class='myreceive'>
+      <text class='myreceive-text'>收到的心意，卡片</text>
+      <image class='myreceive-nexticon' src='../../images/quiz_icon_next_disabled.png'></image>
+    </view>
+  </view>
+  <!-- 此部分结束  -->
+
+
+  <!-- 分享给朋友 -->
+  <view class='myshare-body'>
+    <view class='myshare'>
+      <text class='myshare-text'>分享给朋友</text>
+      <text class='cumulate-share'>累计分享成功0次</text>
+      <image class='myshare-nexticon' src='../../images/quiz_icon_next_disabled.png'></image>
+    </view>
+  </view>
+  <!-- 此部分结束  -->
+
+  <!-- 分享给朋友 -->
+  <view class='myset-body'>
+    <view class='myset'>
+      <text class='myset-text'>设置</text>
+      <image class='myset-nexticon' src='../../images/quiz_icon_next_disabled.png'></image>
+    </view>
+  </view>
+  <!-- 此部分结束  -->
+
+</view>

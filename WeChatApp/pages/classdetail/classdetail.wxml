@@ -1,0 +1,180 @@
+<import src="../template/template.wxml"/>
+<template is="tabbar" data="{{tabbar}}"/>
+<view class='top'>
+  <view class='course' wx:for='{{courses}}' wx:key='courses'>
+
+    <view class='left' bindtap='left'>
+      <image class='img' src='{{item.courseImg}}'></image>
+    </view>
+    <view class='content'>
+      <view>
+        <text class='className'>{{item.courseClass}}</text>
+      </view>
+      <view>
+        <text class='name'>{{item.courseName}}</text>
+      </view>
+      <view>
+        <text class='teacher'>{{item.userName}}</text>
+      </view>
+
+    </view>
+  </view>
+
+
+  <view class='top1'>
+    <text class='shuju'>数据导出请在PC上访问mosoteach.cn</text>
+  </view>
+</view>
+
+<!--班课号-->
+<view class="banke-body">
+  <view class='banke-text'>
+    <text class='bankehao'>班课号</text>
+  </view>
+
+  <view class='banke-value'>
+    <text class='bankezhi'>133244</text>
+
+  </view>
+</view>
+
+
+
+<!--允许加入-->
+<view class='join-body'>
+  <view class='join'>
+    <text class='allow-join-text'>允许加入</text>
+    <checkbox class='allow-yes-no'></checkbox>
+  </view>
+</view>
+
+
+
+<!--空白-->
+<view class='kongbai'></view>
+
+<!--您所在的院系-->
+<view class='department-body'>
+  <view class='component-department'>
+    <view>
+      <text class='component-text'>学校院系</text>
+    </view>
+    <view class='school-body'>
+      <text class='school'>南京工业职业技术学院</text>
+      <text class='department'>计算机与软件学院</text>
+    </view>
+  </view>
+</view>
+
+<!--云教材-->
+
+<view class='same-body'>
+  <view class='limit1'>
+    <text class='classify-name'>云教材</text>
+  </view>
+  <view class='limit2'>
+    <text class="classify-value">未设置</text>
+  </view>
+</view>
+
+<!-- 学习要求 -->
+<view class='same-body'>
+  <view class='limit1'>
+    <text class='classify-name'>学习要求</text>
+  </view>
+  <view class='limit2'>
+    <text class="classify-value">暂无内容</text>
+  </view>
+</view>
+
+<!-- 教学进度 -->
+<view class='same-body'>
+  <view class='limit1'>
+    <text class='classify-name'>教学进度</text>
+  </view>
+  <view class='limit2'>
+    <text class="classify-value">暂无内容</text>
+  </view>
+</view>
+
+<!-- 考试安排 -->
+<view class='different-body'>
+  <view class='ks-limit'>
+    <text class='classify-name'>考试安排</text>
+  </view>
+  <view class='content-limit'>
+    <text class="classify-value">暂无内容</text>
+  </view>
+</view>
+<!--空白-->
+<view class='operate-interval'></view>
+
+<!--操作记录-->
+<view class='operate-body'>
+  <view class='operate-limit'>
+    <text class='operate-text'>操作记录</text>
+    <image class='operate-icon' src='../../images/quiz_icon_next_normal.png'></image>
+  </view>
+</view>
+
+<!-- 间隔 -->
+<view class='operate-interval'></view>
+
+<view class='operate-body'>
+  <view class='operate-limit'>
+    <text class='operate-text'>置顶班课</text>
+    <checkbox class='operate-check'></checkbox>
+
+  </view>
+</view>
+
+<!-- 间隔 -->
+<view class='operate-interval'></view>
+
+<!-- 复制班课 -->
+<view class='operate-body'>
+  <view class='operate-limit'>
+    <text class='operate-text'>复制班课</text>
+    <image class='operate-icon' src='../../images/quiz_icon_next_normal.png'></image>
+  </view>
+</view>
+
+<!-- 编辑班课 -->
+<view class='operate-body'>
+  <view class='operate-limit'>
+    <text class='operate-text'>编辑班课</text>
+    <image class='operate-icon' src='../../images/quiz_icon_next_normal.png'></image>
+  </view>
+</view>
+
+<!-- 间隔 -->
+<view class='edit-interval'></view>
+
+<!-- 结束班课 -->
+<view class='operate-body'>
+  <view class='operate-limit'>
+    <text class='end-text'>结束班课</text>
+  </view>
+</view>
+
+<!-- 间隔 -->
+<view class='end-interval'>
+  <view class='end-limit'>
+    <view class='end'>
+      <text class='end-explode'>结束班课后将无法发布资源、创建活动等,但仍可以查看已发布的资源、已结束的活动等</text>
+    </view>
+  </view>
+</view>
+
+<!-- 删除班课 -->
+<view class='operate-body'>
+  <view class='operate-limit'>
+    <text class='delete-text'>删除班课</text>
+  </view>
+</view>
+
+<view class='delete-explode'>
+  <view class='end'>
+    <text class='end-explode'>只有已结束的班课可以被删除</text>
+  </view>
+</view>

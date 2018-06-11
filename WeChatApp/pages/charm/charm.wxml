@@ -1,0 +1,51 @@
+<view class='body' wx:for="{{charmdata}}" wx:key="name">
+  <view class='main'>
+    <!-- 此处为页面上端 -->
+    <view class='top'>
+      <view class='teacher-name'>
+        <text class='text'>{{item.teachername}}老师</text>
+      </view>
+      <view class='test'>
+        <image class='teacher-avatar' src='{{item.teacher_avatar}}'></image>
+      </view>
+      <view class='meili'>
+        <text class='meili-text'>魅力值</text>
+        <text class='meili-text'>{{item.meili_value}}</text>
+      </view>
+    </view>
+    <!-- 此部分结束 -->
+   
+   <view class="first-line">
+      <view class='firstline-left'>
+        <image class='img-set' src='../../images/nav_ic_logo.png'></image>
+        <text class='create-text'>创建班课</text>
+        <text class='create-value'>{{item.class_amount}}</text>
+      </view>
+
+      <view class='firstline-right'>
+        <image class='img-set' src='../../images/nav_ic_logo.png'></image>
+        <text class='student-text'>累计学生</text>
+        <text class='student-value'>{{item.student_amount}}</text>
+      </view>
+
+    </view>
+
+    <view class="second-line">
+      <view class='firstline-left'>
+        <image class='img-set' src='../../images/nav_ic_logo.png'></image>
+        <text class='resource-text'>发布资源</text>
+        <text class='resource-value'>{{item.resource_amount}}</text>
+      </view>
+
+      <view class='firstline-right'>
+        <image class='img-set' src='../../images/nav_ic_logo.png'></image>
+        <text class='active-text'>开展活动</text>
+        <text class='active-value'>{{item.active_amount}}</text>
+      </view>
+      
+    </view>
+  
+  </view>
+  <!-- main -->
+</view>
+<!-- body -->

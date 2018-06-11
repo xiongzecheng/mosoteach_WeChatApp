@@ -1,0 +1,28 @@
+  <view class='top'>
+    <view class='search'>
+      <icon class='searchIcon' size='20' type='search'></icon>
+      <input class='shuru' placeholder='搜索'></input> 
+    </view>
+  </view>
+
+  <view class='left'>
+    <view class='pengyou' wx:for='{{pengyou}}' wx:key='this'>
+      <view class='shang'>
+        <image class='head' src='{{item.head}}'></image>
+        <view class='content'>
+          <view><text class='name'>{{item.name}}</text></view>
+          <view><text class='time'>{{item.time}}</text></view>
+        </view>
+      </view>
+      <view class='pinglun'>
+        <view class='plun'>
+          <text class='pingl'>{{item.pingl}}</text>
+        </view>
+        <view class='print2'>
+        <image class='print'src='{{item.print}}'></image>
+        <image class='print'src='{{item.print1}}'></image>
+        <image class='print'src='{{item.print2}}'></image>
+        </view>
+      </view>  
+    </view>
+  </view>

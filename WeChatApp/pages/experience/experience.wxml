@@ -1,0 +1,66 @@
+<view class='body' wx:for="{{routers}}" wx:key="name">
+  <view class='main'>
+    <view class='top'>
+      <view class=' teacher-name '>
+        <text class='text '>熊康</text>
+      </view>
+
+      <view class='test'>
+        <image class='teacher-avatar ' src='https://public-cdn-oss.mosoteach.cn/avatar/2018/04/cd318731f84001ce825c7f89268eb84b.jpg?v=1523842814&x-oss-process=style/s200x200'></image>
+      </view>
+
+      <view class='dengji' wx:for="{{routers}}" wx:key="name">
+        <text class='dengji-text '>Lv{{item.dengji}}</text>
+      </view>
+
+      <view class='jingyan' wx:for="{{routers}}" wx:key="name">
+        <text class='jingyan-text '>总经验值{{item.jingyan}}</text>
+      </view>
+
+    </view>
+    <!-- <top>结束 -->
+
+
+    <view class="first-line">
+      <view class='firstline-left'>
+        <text class='banke-value'>{{item.banke}}</text>
+      </view>
+
+      <view class='firstline-right'>
+        <text class='qiandao-value'>{{item.qiandao}}</text>
+      </view>
+    </view>
+
+    <view class="second-line">
+      <view class='secondline-left'>
+        <text class='ziyuan-value'>{{item.ziyuan}}</text>
+      </view>
+      <view class='secondline-right'>
+        <text class='huodong-value'>{{item.huodong}}</text>
+      </view>
+    </view>
+
+    <view class="third-line">
+      <view class='thirdline-left'>
+        <text class='shipin-value'>{{item.shipin}}</text>
+      </view>
+      <view class='thirdline-right'>
+        <text class='shichang-value'>{{item.shichang}}</text>
+      </view>
+    </view>
+
+    <view class="force-line">
+      <view class='forceline-left'>
+        <text class='taolun-value'>{{item.taolun}}</text>
+      </view>
+
+      <view class='forceline-right'>
+        <text class='dianzan-value'>{{item.dianzan}}</text>
+      </view>
+    </view>
+
+
+  </view>
+  <!-- <main>到此结束 -->
+</view>
+<!-- <body>到此结束 -->

@@ -1,0 +1,48 @@
+{
+  "navigationBarTitleText": "lmy开发",
+  "pages":[
+      "pages/quanbu/quanbu",
+      "pages/member/member",
+      "pages/notice/notice",
+      "pages/resource/resource",
+      "pages/detail/detail"
+  ],
+  "tabBar":{
+    "color": "#FFFFFF",
+    "selectedColor":"#00C2E6",
+    "borderStyle":"black",
+    "position": "top" ,
+    "list":[
+      {
+       "selectedIconPath": "images/btn_notice_add.png",
+      "iconPath": "images/interaction_options_unfocus.png",
+      "pagePath": "pages/banke/banke",
+      "text": "活动"
+      },
+      {
+        "selectedIconPath": "images/resource_options_focus.png",
+        "iconPath": "images/resource_options_unfocus.png",
+        "pagePath": "pages/resource/resource",
+        "text": "资源"
+      },
+      {
+        "selectedIconPath":"images/member_options_focus.png",
+        "iconPath":"images/member_options_unfocus.png",
+        "pagePath":"pages/member/member",
+        "text":"成员"
+      },
+      {
+        "selectedIconPath":"images/notice_options_focus.png",
+        "iconPath":"images/notice_options_unfocus.png",
+        "pagePath":"pages/notice/notice",
+        "text":"消息"
+      },
+      {
+        "selectedIconPath":"images/detail_options_focus.png",
+        "iconPath":"images/detail_options_unfocus.png",
+        "pagePath":"pages/detail/detail",
+        "text":"详情"
+      }
+    ]
+  }
+}

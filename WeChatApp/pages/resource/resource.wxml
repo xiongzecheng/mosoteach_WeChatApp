@@ -1,0 +1,38 @@
+<import src="../template/template.wxml"/>
+<template is="tabbar" data="{{tabbar}}"/>
+
+<view class="section test2">
+    <view class='flex-wrp' style="flex-direction:row;">
+
+      <view class="separate bc_set" bindtap='gotoShow'>
+             <view class='waibu'><image class='pic'  src='../../images/ic_resource_choose_pic.png'></image></view>
+             <view class='classify1'>图片</view>
+      </view>
+
+       <view class="separate bc_set">
+              <view class='waibu'><image class='pic' src='../../images/ic_resource_pc.png'></image></view>
+              <view class='classify2'>从PC上传</view>
+      </view>
+
+       <view class="separate bc_set">
+                <view class='waibu'><image class='pic' src='../../images/ic_resource_link.png'></image></view>
+               <view class='classify3'>网页链接</view>
+      </view>
+       <view class="separate bc_set">
+            <view class='waibu'><image class='pic' src='../../images/ic_resource_ku.png'></image></view>
+            <view class='classify4'>资源库</view>
+      </view>
+  </view>
+</view>
+
+<view class='center'>
+  <view class='tiaoxu1'><text class='tiaoxu'>调序</text></view>
+</view>
+
+<view class='zhanshi' bindtap='previewImage' wx:for="{{src}}" wx:key="this">
+    <image class= "show-image" mode="aspectFitf" src="{{item}}" ></image>
+    <view class='content'>
+    <view><text class='time'>{{time}}</text></view>
+    <view><text class='username'>{{username}}</text></view>
+    </view>
+</view>

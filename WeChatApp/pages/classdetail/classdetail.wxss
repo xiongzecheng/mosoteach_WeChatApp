@@ -1,0 +1,305 @@
+/* pages/detail/detail.wxss */
+@import "/pages/template/template.wxss";
+
+.course {
+  height: 78px;
+}
+
+.img {
+  width: 68px;
+  height: 68px;
+  float: left;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+
+.content {
+  margin-left: 10px;
+  margin-top: 18px;
+}
+
+.name {
+  font-size: 16px;
+  margin-top: 12px;
+  margin-left: 10px;
+  color: black;
+  padding-top: 10px;
+}
+
+.className {
+  font-size: 16px;
+  margin-left: 10px;
+  padding-top: -5px;
+  color: black;
+}
+
+.teacher {
+  font-size: 12px;
+  margin-left: 10px;
+  color: gray;
+}
+
+.shuju {
+  color: #696969;
+  font-size: 14px;
+}
+
+.top1 {
+  text-align: center;
+  background-color: #fafafa;
+  height: 44px;
+  line-height: 44px;
+  border-top: 1rpx solid #dcdcdc;
+  border-bottom: 1rpx solid #ddd;
+}
+
+.body-view {
+  position: absolute;
+  margin-left: 82%;
+  margin-top: -44px;
+}
+
+.kongbai {
+  text-align: center;
+  background-color: #fafafa;
+  height: 24px;
+}
+
+.department-body {
+  height: 68px;
+  background: white;
+  background: white;
+  border-bottom: 1rpx solid #dcdcdc;
+}
+
+.component-department {
+  border-top: 1rpx solid #dcdcdc;
+  height: 68px;
+}
+
+.component-text {
+  color: black;
+  font-family: "微软雅黑";
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.department {
+  /* color: grey; */
+  margin-left: 8px;
+  padding-top: 18px;
+  font-size: 16px;
+}
+
+.school-body {
+  margin-top: 36px;
+  font-size: 16px;
+  margin-left: 3%;
+}
+
+/*班课号部分*/
+
+.banke-body {
+  height: 60px;
+  border-bottom: 1rpx solid #dcdcdc;
+}
+
+.banke-text {
+  height: 70%;
+  margin-top: 14px;
+  margin-left: 3%;
+}
+
+.banke-value {
+  height: 30%;
+  margin-top: -13px;
+  margin-left: 3%;
+}
+
+.bankezhi {
+  color: #f6bc6f;
+  font-size: 16px;
+}
+
+/*允许加入*/
+
+.join-body {
+  height: 48px;
+  line-height: 48px;
+  border-bottom: 1rpx solid #dcdcdc;
+}
+
+.join {
+  margin-left: 3%;
+}
+
+.allow-join-text {
+  color: #08bbdd;
+  font-size: 14px;
+}
+
+.allow-yes-no {
+  margin-left: 76%;
+  /* color: 	#08BBDD;
+   width:15px;
+   height: 30px; 
+     */
+}
+
+/*  重写 checkbox 样式  */
+
+/* 未选中的 背景样式 */
+
+checkbox .wx-checkbox-input {
+  /* border-radius: 50%; 圆角  */
+  width: 36rpx; /* 背景的宽 */
+  height: 36rpx; /* 背景的高 */
+}
+
+/* 选中后的 背景样式 （红色背景 无边框 可根据UI需求自己修改） */
+
+checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  border: none;
+  background: #08bbdd;
+}
+
+/* 选中后的 对勾样式 （白色对勾 可根据UI需求自己修改） */
+
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+  border-radius: 50%; /* 圆角 */
+  width: 36rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+  height: 36rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+  line-height: 36rpx;
+  text-align: center;
+  font-size: 30rpx; /* 对勾大小 30rpx */
+  color: #fff; /* 对勾颜色 白色 */
+  background: transparent; /*背景透明*/
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+}
+
+/*统一样式设置*/
+
+.same-body {
+  height: 68px;
+  background: white;
+  background: white;
+  border-bottom: 1rpx solid #dcdcdc;
+  margin-left: 3%;
+}
+
+.different-body {
+  height: 68px;
+  background: white;
+  background: white;
+  border-bottom: 1rpx solid #dcdcdc;
+}
+
+.different {
+  margin-left: 3%;
+}
+
+.limit1 {
+  height: 60%;
+  margin-top: 5%;
+}
+
+.limit2 {
+  height: 40%;
+  line-height: 16px;
+}
+
+.classify-name {
+  font-size: 16px;
+  margin-top: 18px;
+}
+
+.classify-value {
+  position: absolute;
+  font-size: 16px;
+  margin-top: -9px;
+}
+
+.ks-limit {
+  height: 60%;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+.content-limit {
+  height: 40%;
+  line-height: 16px;
+  margin-left: 3%;
+}
+
+.operate-interval {
+  height: 32px;
+  background: white;
+  border-bottom: 1rpx solid #dcdcdc;
+}
+
+.operate-body {
+  height: 46px;
+  line-height: 46px;
+  border-bottom: 1rpx solid #dcdcdc;
+}
+
+.operate-text {
+  color: #1cc5e2;
+}
+
+.operate-limit {
+  margin-left: 3%;
+}
+
+.operate-icon {
+  width: 8px;
+  height: 12px;
+  margin-left: 76%;
+}
+
+.operate-check {
+  margin-left: 72%;
+}
+
+.edit-interval {
+  height: 30px;
+  background: #fafafa;
+  border-bottom: 1rpx solid #dcdcdc;
+}
+
+.end-text {
+  color: #f69d5f;
+}
+
+.end-interval {
+  height: 48px;
+  background: #fafafa;
+  border-bottom: 1rpx solid #dcdcdc;
+}
+
+.end {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.end-limit {
+  height: 48px;
+}
+
+.end-explode {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.delete-text {
+  color: #ccc;
+}
+
+.delete-explode {
+  height: 28px;
+  background: #fafafa; /*背景色*/
+  border-bottom: 1rpx solid #dcdcdc;
+}

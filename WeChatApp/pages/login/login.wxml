@@ -1,0 +1,35 @@
+<view class='content' style=''>
+  <view class='content-top'>
+    <view class='content-head'>
+      <image src='../../images/login_logo.png'>
+      </image>
+    </view>
+  </view>
+
+  <view class='content-input'>
+    <view class='content-input-info'>
+      <view class='content-input-img'>
+      账号
+      </view>
+      <view class='phone'>
+        <input name='account' bindinput='account'  type='number' maxlength='11' placeholder-class='content-input-in' focus='true' />
+      </view>
+    </view>
+    <view class='content-input-info'>
+      <view class='content-input-img'>
+      密码
+      </view>
+      <view class='password'>
+        <input name='password' bindinput='password' password='true' type='number' placeholder-class='content-input-in' focus='true' />
+      </view>
+    </view>
+      <button class='login' type='primary1' form-type='submit' bindtap='loginBtn'>登录</button>
+      <!-- <button class='login' type='primary' form-type='submit' bindtap='loginBtn'>登录</button> -->
+    <view class='content-bottom'>
+      <text class='forget_btn' bindtap='forget'>注册蓝墨账号</text>
+      <view class='content-bottom-right'>
+        <text>无法登录？</text>
+      </view>
+    </view>
+  </view>
+</view>

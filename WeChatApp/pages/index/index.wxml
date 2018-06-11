@@ -1,0 +1,21 @@
+<!--index.wxml-->
+  <view class='top'>
+    <view class='search'>
+      <icon class='searchIcon' size='20' type='search'></icon>
+      <input class='shuru'  bindinput='searchClick' type='text' placeholder='搜索' ></input> 
+    </view>
+  </view>
+
+  <view class='center'>
+    <view class='course' wx:for='{{courses}}' wx:key='courses'>
+      <view class='left' bindtap='left'>
+         <image class="{{item.courseStatus ==0?'image':'img'}}"  src='{{item.courseImg}}'></image>
+          <view class='content'>
+            <view><text class='name'>{{item.courseName}}</text></view>
+            <view><text class='className'>{{item.courseClass}}</text></view>
+            <view><text class='teacher'>{{item.userName}}</text></view>
+          </view>
+      </view>
+      <view wx:if = "{{item.courseCoding != null}}"><text class='bankema'>{{item.courseCoding}}</text></view>
+    </view>
+  </view>

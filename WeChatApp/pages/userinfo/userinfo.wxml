@@ -1,0 +1,97 @@
+<scroll-view class='mybody' wx:for='{{infodata}}' wx:key='this'>
+  <view class='mytop' bindtap='top'>
+    <view>
+      <image class='user-avatar' src='{{item.avatar}}'></image>
+      <text class='user-name'>{{item.name}}</text>
+      <text class='user-mobile'>{{item.mobile}}</text>
+      <image class='nexticon' src='{{item.icon}}'></image>
+    </view>
+  </view>
+
+  <!-- 姓名 -->
+  <view class='myname-body'>
+    <view class='myname'>
+      <text class='nametext'>姓名</text>
+      <text class='username'>{{item.name}}</text>
+    </view>
+  </view>
+
+  <!--昵称 -->
+  <view class='nickname-body'>
+    <view class='nickname'>
+      <text class='nametext'>昵称</text>
+      <text class='username'>{{item.nick}}</text>
+    </view>
+  </view>
+
+  <!--出生年月 -->
+  <view class='birth-body'>
+    <view class='birth'>
+      <text class='birthtext'>出生年月</text>
+      <text class='birth-year'>{{item.birth}}</text>
+    </view>
+  </view>
+  <!--选择性别-->
+  <view class='select-sex'>
+    <view class='select-text'>
+      选择性别
+    </view>
+  </view>
+  <!--男/女-->
+  <view class='component-body'>
+    <view class='component1'>
+      <text class='component-text'>男</text>
+      <image bindtap='changesex' id='maleselect' class='circle-select' src='../../images/btn_check_off.png'></image>
+    </view>
+    <view class='component2'>
+      <text class='component-text'>女</text>
+      <image class='circle-select' src='../../images/btn_check_on.png'></image>
+    </view>
+  </view>
+
+  <!--您所在的院系-->
+  <view class='department-body'>
+    <view class='component-department'>
+      <view><text class='department-text'>你所在的院校及院系</text></view>
+      <view class='school-body'>
+      <text class='school'>{{item.school}}</text>
+      <text class='department'>{{item.department}}</text>
+      </view>
+      <image class='department-icon' src='../../images/quiz_icon_next_disabled.png'></image>
+    </view>
+  </view>
+
+
+  <!--选择身份-->
+  <view class='select-sex'>
+    <view class='select-text'>
+      选择身份
+    </view>
+  </view>
+  <view class='component-body'>
+    <view class='component1'>
+      <text class='component-text'>我是老师</text>
+       <image class='circle-select' src='../../images/btn_check_off.png'></image>
+    </view>
+    <view class='component2'>
+      <text class='component-text'>我是学生</text>
+       <image class='circle-select' src='../../images/btn_check_on.png'></image>
+    </view>
+    <view class='component2'>
+      <text class='component-text'>其它</text>
+       <image class='circle-select' src='../../images/btn_check_off.png'></image>
+    </view>
+  </view>
+
+  <view class='component-body' style='margin-top:18px;'>
+    <view class='component1'>
+      <text class='component-text'>学号/工号</text>
+      <text class='student-id'>{{item.student_id}}</text>
+    </view>
+  </view>
+
+  <view class='save'>
+  <button class='save-button'>保存</button>
+  </view>
+
+</scroll-view>

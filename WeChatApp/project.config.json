@@ -1,0 +1,77 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.0.4",
+	"appid": "wxfad03d32b6fc75e7",
+	"projectname": "%E4%BA%91%E7%8F%AD%E8%AF%BE",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "详情",
+					"pathName": "pages/classdetail/classdetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "资源",
+					"pathName": "pages/resource/resource",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "选项卡",
+					"pathName": "pages/banke/banke",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "登录",
+					"pathName": "pages/login/login",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "成员",
+					"pathName": "pages/member/member",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "消息",
+					"pathName": "pages/message/message",
+					"query": ""
+				}
+			]
+		}
+	}
+}

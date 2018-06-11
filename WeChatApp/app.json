@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/discovery/discovery",
+    "pages/mine/mine",
+    "pages/pengyouquan/pengyouquan",
+    "pages/banke/banke",
+    "pages/resource/resource",
+    "pages/member/member",
+    "pages/classdetail/classdetail",
+    "pages/userinfo/userinfo",
+    "pages/experience/experience",
+    "pages/charm/charm",
+    "pages/login/login",
+    "pages/message/message"
+  ],
+  "window": {
+    "backgroundTextStyle": "bold",
+    "navigationBarBackgroundColor": "#00C2E6",
+    "navigationBarTitleText": "全家桶云班课",
+    "navigationBarTextStyle": "black",
+    "backgroundColor":"#00C2E6"
+  },
+  
+  "tabBar":{
+    "color": "#a9b7b7",
+    "selectedColor":"#00C2E6",
+    "borderStyle":"black",
+    "position":"bottom",
+    "list":[
+      {
+        "selectedIconPath": "images/cc_icon_on.png",                
+        "iconPath": "images/cc_icon.png",
+        "pagePath": "pages/index/index",
+        "text": "班课"
+      },
+      {
+       "selectedIconPath": "images/discover_icon_on.png",                
+        "iconPath": "images/discover_icon.png",
+        "pagePath": "pages/discovery/discovery",
+        "text": "发现"
+      },
+      {
+        "selectedIconPath": "images/me_icon_on.png",
+        "iconPath": "images/me_icon.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  }
+}

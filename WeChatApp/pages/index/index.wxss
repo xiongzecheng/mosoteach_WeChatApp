@@ -1,0 +1,89 @@
+.top{
+  display: flex;
+  flex-direction: row;
+  width: 750rpx;
+  background-color: #EEEEEE;
+  height: 80rpx;
+  position: fixed;
+  top: 0rpx;
+}
+.search{
+width: 730rpx;
+height: 60rpx;
+background-color: white;
+border-radius: 10rpx;
+margin-top: 10rpx;
+margin-left: 10rpx;
+}
+.searchIcon{
+ width: 20rpx;
+  height: 20rpx;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+}
+.shuru{
+  position: absolute;
+  left: 85rpx;
+  top: 15rpx;
+  height: 40rpx;
+}
+.center{
+  margin-top:42px;
+}
+.course{
+  height: 76px;
+
+}
+.bankema{
+  position: absolute;
+  margin-left: 80%;
+  margin-top: -65px;
+  color: #00C2E6;
+  font-size: 13px;
+  font-weight: bold;
+}
+.img{
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-left: 10px;
+  padding-top: 8px;
+}
+.image{
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-left: 10px;
+  padding-top: 8px;
+  opacity: 0.2;
+  filter: alpha(opacity(20)); 
+}
+.suo{
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-left: 10px;
+  padding-top: 8px;
+}
+.course{
+   border-bottom: 1px solid lightgrey;
+}
+.content{
+  margin-left: 10px;
+}
+.name{
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: black;
+}
+.className{
+  font-size:12px;
+  margin-left: 10px;
+  color: black;
+}
+.teacher{
+  font-size: 10px;
+  margin-left: 10px;
+  color: gray;
+}

@@ -1,0 +1,9 @@
+<view class='body'>
+  <view class='top' bindtap='top'>
+   <view class='faxian' wx:for='{{faxian}}' wx:key='this'>
+        <image class='kc-icon' src='{{item.pic}}'></image>
+        <text class='kc-text'>{{item.faxian}}</text>
+        <image class='unread-icon' src='{{item.unread_icon}}'></image>
+    </view>
+  </view>
+</view>

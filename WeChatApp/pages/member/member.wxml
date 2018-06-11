@@ -1,0 +1,106 @@
+<import src="../template/template.wxml"/>
+<template is="tabbar" data="{{tabbar}}"/>
+
+<view class='top'>
+<view>
+<image class='picture' src='image/gift_icon_top_student.png'></image>
+</view>
+<view class='ranking'>
+<text class='font-small'>第</text>
+<text class='font-big'>1</text>
+<text class='font-small'>名</text>
+</view>
+<view class='grow'>
+<text class='font-small'>获得</text>
+<text class='font-small'>666</text>
+<text class='font-small'>经验值</text>
+</view>
+</view>
+<view class='center'>
+<text class='font-center'>成员总数</text>
+<text class='font-count'>30人</text>
+</view>
+<view class='down-people'>
+<scroll-view scroll-y style="height: 390px;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+<view class='people'>
+  <text class='number'>1</text>
+  <image class='myhead' src='image/36.jpg'></image>
+  <text class='up'>龚健</text>
+  <text class='down'>1602753107</text> 
+  <text class='font-right-up'>云教材学习 0%</text> 
+  <text class='font-right-down'>388 经验值</text>   
+</view>
+<view class='people'>
+  <text class='number'>2</text>
+  <image class='myhead' src='image/37.jpg'></image>
+  <text class='up'>熊康</text>
+  <text class='down'>1602753120</text> 
+  <text class='font-right-up'>云教材学习 0%</text> 
+  <text class='font-right-down'>366 经验值</text>   
+</view>
+<view class='people'>
+  <text class='number'>3</text>
+  <image class='myhead' src='image/38.jpg'></image>
+  <text class='up'>郭翠</text>
+  <text class='down'>1602753136</text> 
+  <text class='font-right-up'>云教材学习 0%</text> 
+  <text class='font-right-down'>363 经验值</text>   
+</view>
+<view class='people'>
+  <text class='number'>4</text>
+  <image class='myhead' src='image/39.jpg'></image>
+  <text class='up'>朱紫江南</text>
+  <text class='down'>1602753131</text> 
+  <text class='font-right-up'>云教材学习 0%</text> 
+  <text class='font-right-down'>360 经验值</text>   
+</view>
+<view class='people'>
+  <text class='number'>5</text>
+  <image class='myhead' src='image/40.jpg'></image>
+  <text class='up'>徐江</text>
+  <text class='down'>1602753121</text> 
+  <text class='font-right-up'>云教材学习 0%</text> 
+  <text class='font-right-down'>358 经验值</text>   
+</view>
+<view class='people'>
+  <text class='number'>6</text>
+  <image class='myhead' src='image/41.jpg'></image>
+  <text class='up'>缪瑞祥</text>
+  <text class='down'>1602753130</text> 
+  <text class='font-right-up'>云教材学习 0%</text> 
+  <text class='font-right-down'>356 经验值</text>   
+</view>
+<view class='people'>
+  <text class='number'>7</text>
+  <image class='myhead' src='image/42.jpg'></image>
+  <text class='up'>徐文倩</text>
+  <text class='down'>1602753140</text> 
+  <text class='font-right-up'>云教材学习 0%</text> 
+  <text class='font-right-down'>352 经验值</text>   
+</view>
+<view class='people'>
+  <text class='number'>8</text>
+  <image class='myhead' src='image/43.jpg'></image>
+  <text class='up'>柏欢欢</text>
+  <text class='down'>1602753132</text> 
+  <text class='font-right-up'>云教材学习 0%</text> 
+  <text class='font-right-down'>350 经验值</text>   
+</view>
+<view class='people'>
+  <text class='number'>9</text>
+  <image class='myhead' src='image/44.jpg'></image>
+  <text class='up'>邓燕</text>
+  <text class='down'>1602753135</text> 
+  <text class='font-right-up'>云教材学习 0%</text> 
+  <text class='font-right-down'>348 经验值</text>   
+</view>
+<view class='people'>
+  <text class='number'>10</text>
+  <image class='myhead' src='image/45.jpg'></image>
+  <text class='up'>朱广旭</text>
+  <text class='down'>1602753129</text> 
+  <text class='font-right-up'>云教材学习 0%</text> 
+  <text class='font-right-down'>346 经验值</text>   
+</view>
+</scroll-view>
+</view>
